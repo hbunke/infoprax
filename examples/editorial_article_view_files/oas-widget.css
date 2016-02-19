@@ -1,0 +1,50 @@
+#oas-widget { display:inline-block;}
+#oas-widget .oas-overlay {
+     position:absolute;
+     background:white;
+     padding:3px;
+     z-index:10;
+     box-shadow:3px 3px 5px 6px #777;
+     margin-bottom:10px;
+     width:50em;
+}
+
+#oas-widget.applied-to-ojs {
+     margin-top: 2em;
+}
+#oas-widget.applied-to-ojs + * {
+     clear:right;
+}
+#oas-widget.applied-to-artdok .overlay,
+#oas-widget.applied-to-propylaeumdok .overlay,
+#oas-widget.applied-to-savifadok .overlay {
+     width:60em;
+}
+#oas-widget.applied-to-ojs .overlay {
+     margin-right: 0;
+     float: right;
+}
+
+#oas-widget img {
+     float:right;
+}
+#oas-widget table table {
+     border-collapse:collapse;
+     border:1px solid lightgrey;
+     width:100%;
+}
+#oas-widget .bar { background-color:lightgrey; z-index:-1; position: absolute; }
+#oas-widget table table td, #oas-widget table table th {
+     top:0px;
+     border:1px solid lightgrey;
+}
+#oas-widget table table td {
+     padding:1px;
+     text-align:center;
+}
+#oas-widget td>div { position:relative; padding:0; }
+#oas-widget td div { padding: 0; margin: 0; }
+
+#oas-widget #close-btn { text-align:center; }
+
+.frontdoor { display: none; }

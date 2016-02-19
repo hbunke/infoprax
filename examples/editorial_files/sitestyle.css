@@ -1,0 +1,238 @@
+body {
+        margin: auto;
+        padding: 0;
+        background-color: #FFFFFF;
+        color: #000000;
+        font-family: "Arial", "Helvetica", sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+}
+
+#header {
+        margin-top: 10px;
+	margin-left: 10%; 
+	margin-right: 10%; 
+        background-color: transparent;
+        width: 1024px;
+}
+#header h1 {
+        margin: 0 auto;
+        background-color: transparent;
+        padding: 0.0em 0 0.0em 0;
+        font-family: "Arial", "Helvetica", sans-serif;
+        font-weight: bold;
+        line-height: 130%30%30%;
+}
+
+#main {
+ /*width: 710px;*/
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 10%;
+ padding: 0 0;
+}
+
+
+
+#main h2 {
+font-family: "Arial", "Helvetica", sans-serif;
+font-size: 0.9em;
+line-height: 1.1em;
+color: #333333;
+font-weight: bold;
+}
+
+
+#navbar a {
+background-color: transparent;
+text-align: left;
+font-size: 0.8em;
+font-weight: bold;
+letter-spacing: 0.05em;
+}
+
+#navbar a:link {
+        text-decoration: none;
+}
+
+#navbar a:hover {
+        color: #900;
+        text-decoration: underline;
+}
+
+
+ul.menu a {
+font-size: 1em;
+text-transform: none;
+text-decoration: none;
+}
+
+a:hover {
+background-color: transparent;
+color: #900;
+text-decoration: underline;
+}
+
+a:link {
+        color: #900;
+        text-decoration: none;
+}
+
+a:active {
+        color: #900;
+        font-weight: bold;
+}
+
+a:visited {
+        color: #900;
+        text-decoration: none;
+}
+
+
+a.action, a.file {
+font-height: 0.8em;
+font-size: 0.9em;
+padding-top: 0em;
+text-transform: none;
+}
+
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+        background-color: #F0F0E8;
+        color: #000;
+        font-family: "Arial", "Helvetica", sans-serif;
+        border-top: 2px solid #666;
+        border-left: 2px solid #666;
+        border-bottom: 2px solid #E8E8E1;
+        border-right: 2px solid #E8E8E1;
+        font-size: 1em;
+}
+
+input.button {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        background-color: #CCCCCC;
+        font-size: 1em;
+}
+
+input.defaultButton {
+        background-color: #CCCCCC;
+        color: #FBFBF3;
+        font-weight: bold;
+}
+
+
+
+#main h3 {
+color: #333333;
+font-family: "Arial","Helvetica",sans-serif;
+font-weight: bold;
+font-size: 1em;
+}
+
+#main p {
+font-size: 1em;
+padding: 0px auto;
+margin: 0px auto;
+}
+
+
+#content h3 {
+color: #333333;
+font-family: "Arial","Helvetica",sans-serif;
+font-weight: bold;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+#content h4 {
+        font-family: "Arial", "Helvetica", sans-serif;
+        font-weight: bold;
+        font-size: 1.1em;
+}
+
+#content h5 {
+        font-size: 0.95em;
+}
+
+#content {
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+padding-right: 0pt;
+padding-bottom: 0.25em;
+padding-left: 0pt;
+padding-top: 0.25em;
+font-size: 0.8em;
+border-top-width: 2px;
+border-top-style: dotted;
+border-top-color: #000000;
+}
+
+
+#breadcrumb a {
+background-color: transparent;
+text-decoration: none;
+font-size: 1.0em;
+}
+
+#breadcrumb a.current {
+font-weight: bold;
+font-size: 1.0em;
+}
+
+#breadcrumb a:hover {
+color: #990000;
+text-decoration: underline;
+font-size: 1.0em;
+}
+
+#rightSidebar {
+/*width: 200px;*/
+padding-top: 1em;
+height: 100%;
+margin-top: 20px;
+margin-right: 25px;
+margin-right: 10%;
+}
+
+#sidebar div.block span.blockTitle{ 
+text-transform: none;
+font-weight: bold;
+}
+
+input.defaultButton {
+        background-color: #CCCCCC;
+        color: #FBFBF3;
+        font-weight: bold;
+}
+input.button {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        background-color: #CCCCCC;
+        font-size: 1em;
+}
+
+
+#footer {
+        width: 70%;
+        min-height: 50px;
+        position: static;
+        clear: both;
+        background-color: #990000;
+        text-align: center;
+}
+
+.copyright {
+  margin-top: 10px;
+  margin-left: 119px;
+  text-align:center;
+  font-size: 0.9em;
+  color: #6D6D6D;
+}
+
+#oas-widget{
+text-align: right;
+}
+
+@import url("http://archiv.ub.uni-heidelberg.de/oas-widget/oas-widget.css");

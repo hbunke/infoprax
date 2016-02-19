@@ -1,0 +1,77 @@
+/*
+ * test css for smaller infoprax mods
+*/
+
+#main p {
+    line-height: 1.4em;
+}
+
+#main h2 {
+    font-size:2em;
+    font-weight:400;
+}
+
+#simpleSearchForm {
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+#simpleQuery {
+    width:200px;
+}
+
+#searchField {
+    display: none;
+}
+
+label[for='searchField']  {
+    display:none;
+}
+
+/*
+label[for='simpleQuery'] {
+    display:none;
+}
+*/
+
+input[class$='Field']  {
+    background-color:lightyellow;
+    border:1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+
+a {
+    color: rgb(232,116,9) !important;
+
+}
+
+a:active {
+    text-decoration:underline !important;
+}
+
+#rightSidebar {
+    font-size:0.8em;
+    padding-top:0px !important;
+    margin-top:8px;
+}
+
+.blockTitle {
+    /*background-color:rgb(55,55,55);*/
+    /*color:white;*/
+    /*color:rgb(255,215,3); */
+    color: rgb(55,55,55);
+    background-color: rgb(255,215,3);
+    border-radius:12px;
+    padding: 6px 6px 6px 12px !important;
+    border:1px solid lightyellow;
+    letter-spacing:0 !important;
+    font-weight:800 !important;
+
+}
+
+#header {
+    border-bottom:none;
+}
+
